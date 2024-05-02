@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Curseforge Installation Egg
 ---
 
-# Installing Modpacks
+# Installing Minecraft Modpacks
 This guide is specific to EnviroMC but is generally applicable to most hosting companies and installations. If you're having any issues after this guide, please only contact us if you're an EnviroMC customer. 
 
 There are three common ways to modpacks can be downloaded from sites like Curseforge (using Jar files, Shell files or Overrides) and there are a handful of ways they can be setup. In this guide, I will largely be using Forge as an example but this any guidance is generally applicable to Fabric and most common mod-supporting server softwares. Please note that Forge and Fabric mods are generally NOT cross compatible. Installing modpacks using the incorrect server jar will throw various errors. 
