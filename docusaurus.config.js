@@ -11,11 +11,14 @@ const config = {
   title: 'EnviroMC Docs',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+  
+  markdown: {
+	  mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Set the production url of your site here
   url: 'https://docs.enviromc.host',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -51,11 +54,35 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+	
     ({
-      // Replace with your project's social card
+      colorMode: {
+		  defaultMode: 'light',
+		  disableSwitch: false,
+		  respectPrefersColorScheme: false,
+		},
+	  
+	  /*
+	  announcementBar: {
+		  id: 'Contribute',
+		  content:
+			'Our Docs are open source! If you want to add anything, please feel free to contribute to the [git repo](https://github.com/EnviroMC-Docs/Knowledgebase)!',
+		  backgroundColor: '#fafbfc',
+		  textColor: '#091E42',
+		  isCloseable: true,
+		},
+	  */
+	  
+	  prism: {
+        theme: prismThemes.github,
+		darkTheme: prismThemes.dracula,
+      },
+	  
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'EnviroMC Docs',
+		hideOnScroll: true,
+		//style: 'dark',
         logo: {
           alt: 'My Site Logo',
           src: 'img/enviro-logo.png',
@@ -88,11 +115,6 @@ const config = {
             position: 'right',
           },
         ],
-      },
-
-      prism: {
-        theme: prismThemes.dracula,
-        darkTheme: prismThemes.github,
       },
     }),
 };
