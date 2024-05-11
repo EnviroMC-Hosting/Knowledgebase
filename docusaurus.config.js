@@ -53,7 +53,7 @@ const config = {
 	  ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/theme-mermaid').ThemeConfig} */
 	
     ({
       colorMode: {
