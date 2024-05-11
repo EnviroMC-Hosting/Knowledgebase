@@ -15,7 +15,7 @@ Please note that Forge, Fabric and other mod-supporting server jars typically do
 <br />
 
 ## How to install a Minecraft plugin
-There are a variety of sites you can download plugins from. We highly advise sticking to legitimate sites like SpigotMC.org, Bukkit.org, Modrinth.com and any other widely used platforms that maintain a strict anti-piracy standard. Many of the sites that allow "Cracked" content (where a paid product has been duplicated against the wishes of the original owner) are full of malware and can cause trouble than they're worth.
+There are a variety of sites you can download plugins from. We highly advise sticking to legitimate sites like SpigotMC.org, Bukkit.org, Modrinth.com and any other widely used platforms that maintain a strict anti-piracy standard. Many of the sites that allow "Cracked" content (where a paid product has been duplicated against the wishes of the original owner) are full of malware and can cause more trouble than they're worth.
 
 <br />
 
