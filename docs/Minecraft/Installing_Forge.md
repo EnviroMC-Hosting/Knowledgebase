@@ -50,7 +50,7 @@ Once uploaded, you will need to adjust your startup parameters to run this jar w
 <br />
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-forge-p6.png?raw=true)
-Your server files will now look something like this. You can delete the installer jar that you just ran. Take note of any newly created .jar or .sh files.
+Once you've booted up your server and given it a few minutes to install, your server files will now look something like this. You can delete the installer jar that you just ran. Take note of any newly created .jar or .sh files.
 
 <br />
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-forge-p7.png?raw=true)
