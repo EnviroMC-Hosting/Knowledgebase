@@ -21,9 +21,10 @@ Head over to the Egg Changer to change the installation image (egg) of your serv
 
 <br />
 
+![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p1.5.png?raw=true)
 After the server has been switched to the CurseForge Installer Egg, it's important that you delete all existing files as they may merge or interfere with newly installed modpack files.
 This can be done by heading to the `Files` tab on the panel, selecting everything and then pressing "Delete". You will need to press the confirmation pop-up to confirm deletion.
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p1.5.png?raw=true)
+
 
 <br />
 
