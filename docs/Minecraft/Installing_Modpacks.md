@@ -1,12 +1,14 @@
 ---
-sidebar_position: 1
-title: Curseforge Installation Egg
+sidebar_position: 4
+title: How to install a Modpack
 ---
 
 # Installing Minecraft Modpacks
 This guide is specific to EnviroMC but is generally applicable to most hosting companies and installations. If you're having any issues after this guide, please only contact us if you're an EnviroMC customer. 
 
 There are three common ways to modpacks can be downloaded from sites like Curseforge (using Jar files, Shell files or Overrides) and there are a handful of ways they can be setup. In this guide, I will largely be using Forge as an example but this any guidance is generally applicable to Fabric and most common mod-supporting server softwares. Please note that Forge and Fabric mods are generally NOT cross compatible. Installing modpacks using the incorrect server jar will throw various errors. 
+
+**We heavily advise users to take a backup of their server before installing a modpack as their is a high likelihood of files being overwritten/updated which is non reversible**
 
 <br />
 
@@ -19,9 +21,15 @@ Head over to the Egg Changer to change the installation image (egg) of your serv
 
 <br />
 
+After the server has been switched to the CurseForge Installer Egg, it's important that you delete all existing files as they may merge or interfere with newly installed modpack files.
+This can be done by heading to the `Files` tab on the panel, selecting everything and then pressing "Delete". You will need to press the confirmation pop-up to confirm deletion.
+![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p1.5.png?raw=true)
+
+<br />
+
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p2.png?raw=true)
-This process can take a few minutes for the installation to complete and for the egg to be changed - you will recieve an email once it's done. Whilst that's processing, we'll head over to curseforge.com and find a modpack we're interested in. I'm going to use All The Mods 9 in this demonstration - it's a very popular modpack and safe to install, as is the vast majority of content on legitimate sites like Curseforge. 
+If you're deleting large numbers of files, it can take a little while. Whilst that's processing, we'll head over to curseforge.com and find a modpack we're interested in. I'm going to use All The Mods 9 in this demonstration - it's a very popular modpack and safe to install, as is the vast majority of content on legitimate sites like Curseforge. 
 Once you find a modpack you like, click on it and locate the "Project ID". Copy and paste that as we'll need this in just a moment.
 
 <br />
