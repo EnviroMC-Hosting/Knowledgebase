@@ -2,6 +2,10 @@
 sidebar_position: 4
 title: How to install a Modpack
 ---
+# How to install a Curseforge Modpack
+
+Why have I been sent to this page?                                                                                     
+As of writing this paragraph, we're currently working on the minecraft modpack installer tab on the panel to improve its ease of use and overall security. If you were directed here from the panel whilst trying to install a modpack the modpack installer is still under maintenence, you are advised to look at this guide as it will walk you through the steps that will still allow you to install a curseforge modpack on your server in just a couple of clicks!
 
 # Installing Minecraft Modpacks
 This guide is specific to EnviroMC but is generally applicable to most hosting companies and installations. If you're having any issues after this guide, please only contact us if you're an EnviroMC customer. 
