@@ -21,7 +21,7 @@ With that in mind, installing a new version of forge will update forge automatic
 # Installing with EnviroMC's version installer:
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-forge-p1.png?raw=true)
-Head over to your server on EnviroMC's panel and click on the "Versions" tab. From there, select "Forge" from the dropdown option and then find the version you want and click "install". This will automatically pull the latest "reccomended" version from forge's API; it will not pull any older or development builds.
+Head over to your server on EnviroMC's panel and click on the "Versions" tab. From there, select "Forge" from the dropdown option and then find the version you want and click "install". This will automatically pull the latest "recommended" version from forge's API; it will not pull any older or development builds.
 
 <br />
 
@@ -33,7 +33,7 @@ You will need to accept a pop up to confirm and then installation will take arou
 
 # Manually installing Forge
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-forge-p3.png?raw=true)
-If you're wanting to use a version of forge that isn't the latest "Reccomended" (stable) build, you will need to install it manually this way. First, you will need to head to Forge's website and find the version of Forge you're after. https://files.minecraftforge.net/net/minecraftforge/forge/
+If you're wanting to use a version of forge that isn't the latest "Recommended" (stable) build, you will need to install it manually this way. First, you will need to head to Forge's website and find the version of Forge you're after. https://files.minecraftforge.net/net/minecraftforge/forge/
 
 It is crucial that you install the "installer" version. 
 

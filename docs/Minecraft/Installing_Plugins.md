@@ -7,7 +7,7 @@ title: How to install a plugin
 Installing plugins on your minecraft server is generally a very straight forward process. 
 
 
-As a prerequisite, you will need to be running a version of minecraft that supports plugins. We would typically reccomend that most users use [Paper](https://papermc.io/software/paper) as it is incredibly secure, stable and well maintained. Any plugin that's supported by Bukkit, Spigot or any other plugin-supporting jar will work with paper so we generally advise to avoid using bukkit or spigot. 
+As a prerequisite, you will need to be running a version of minecraft that supports plugins. We would typically recommend that most users use [Paper](https://papermc.io/software/paper) as it is incredibly secure, stable and well maintained. Any plugin that's supported by Bukkit, Spigot or any other plugin-supporting jar will work with paper so we generally advise to avoid using bukkit or spigot. 
 
 Please note that Forge, Fabric and other mod-supporting server jars typically do **Not** support plugins and "Hybrid" options that claim to support both are generally unstable.
 

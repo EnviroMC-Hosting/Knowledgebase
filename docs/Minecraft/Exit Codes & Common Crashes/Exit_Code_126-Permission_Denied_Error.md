@@ -20,7 +20,7 @@ Click the 3 dots next to the .sh file and then click "Permissions".
 <br />
 
 You will be prompted with a box asking you for a three digit number. It will likely say something like 644*.
-There are a few things you can change it to but we'd typically reccomend changing it to 744.
+There are a few things you can change it to but we'd typically recommend changing it to 744.
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/Permission-Denied-p3.png?raw=true)
 
 
