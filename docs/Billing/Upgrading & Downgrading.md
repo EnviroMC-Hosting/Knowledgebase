@@ -25,7 +25,9 @@ Head to https://client.enviromc.host and use the navbar to view your active serv
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/upgrade%20downgrade%20p2.png?raw=true)
 Now click on the service you are wanting to upgrade/downgrade. 
+<br />
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/upgrade%20downgrade%20p3.png?raw=true)
 Click the Upgrade/Downgrade button. From here you will have the option to switch between different plans across Monthly, Quarterly, Semi Annual and Annual billing cycles.
+<br />
 
