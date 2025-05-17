@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: How do I cancel?
+title: How to Cancel
 ---
 <br />
 
