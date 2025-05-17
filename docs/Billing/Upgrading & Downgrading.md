@@ -1,12 +1,4 @@
 ---
-<<<<<<< Updated upstream
-sidebar_position: 3
-title: How do I Upgrade and Downgrade my EnviroMC server?
----
-<br />
-
-# How do I upgrade/Downgrade my server? 
-=======
 sidebar_position: 2
 title: Upgrading/Downgrade
 ---
@@ -37,4 +29,3 @@ Now click on the service you are wanting to upgrade/downgrade.
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/upgrade%20downgrade%20p3.png?raw=true)
 Click the Upgrade/Downgrade button. From here you will have the option to switch between different plans across Monthly, Quarterly, Semi Annual and Annual billing cycles.
 
->>>>>>> Stashed changes
