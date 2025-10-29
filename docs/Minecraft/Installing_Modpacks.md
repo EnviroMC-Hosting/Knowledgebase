@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 50
 title: How to install a Modpack
 ---
 # How to install a Curseforge Modpack

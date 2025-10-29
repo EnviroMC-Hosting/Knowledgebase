@@ -42,3 +42,4 @@ If you've installed Paper but the plugins folder isn't showing up, make sure you
 Now simple drag and drop your server jar from your file explorer (windows) or Finder (Mac) onto the panel. After a few seconds, the plugin should finish uploading and you can start up your server.
 
 Assuming all went well, you should be able to type "pl" (short for plugins) into your console and it'll show up! 
+
