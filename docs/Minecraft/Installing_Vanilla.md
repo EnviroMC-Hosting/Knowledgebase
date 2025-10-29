@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-title: How to install Paper
+title: How to install Vanilla (java)
 ---
 
 # How to Install or Update Vanilla (Java) on your Minecraft Server
@@ -10,7 +10,7 @@ This guide will work for more or less all hosting companies or deployments on li
 
 
 ### Notes about Updating versus Installing Vanilla Minecraft
-Vanilla minecraft is an out of the box server solution created by microsoft as the baseline, "original" minecraft experience; for most players we advise using PaperMC as a signicantly more performant, open source alternative. The process for updating and creating a new installation is effectively identical as it's a drag and drop replacement. Minecraft will automatically update any world files when you update to a newer version. We highly advise against attempting to downgrade Paper as it can cause corruption; we will not assist users attempting to do this.
+Vanilla minecraft is an out of the box server solution created by microsoft as the baseline, "original" minecraft experience; for most players we advise using PaperMC as a signicantly more performant, open source alternative. The process for updating or creating a new installation is effectively identical as it's a drag and drop replacement. Minecraft will automatically update any world files when you update to a newer version. We highly advise against attempting to downgrade your server as it can cause corruption; we will not assist users attempting to do this.
 <br />
 
 # Installing Vanilla Minecraft from Minecraft's website, Step by Step
@@ -39,7 +39,7 @@ Make sure your server has the correct java version. At the time of writing, for 
 
 <br />
 
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-paper-p4.png?raw=true)
+![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-paper-p5.png?raw=true)
 Boot up your server and make sure to accept the EULA pop up if it's a fresh installation. This pop up can sometimes be obscured by advert/JS blockers. You will need to manually verify that the eula.txt file contains the line "eula=true" if that is the case.
 
 If you are an EnviroMC customer still experiencing issues with installing or updating your server, please feel free to reach out to us via a ticket for support.

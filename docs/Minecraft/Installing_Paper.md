@@ -34,5 +34,5 @@ Make sure your server has the correct java version. At the time of writing, for 
 
 <br />
 
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-paper-p4.png?raw=true)
+![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-paper-p5.png?raw=true)
 Boot up your server and make sure to accept the EULA pop up if it's a fresh installation. This pop up can sometimes be obscured by advert/JS blockers. You will need to manually verify that the eula.txt file contains the line "eula=true" if that is the case.
