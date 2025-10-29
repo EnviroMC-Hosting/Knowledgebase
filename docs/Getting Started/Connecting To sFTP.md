@@ -54,13 +54,9 @@ Correct & Functional sFTP credentials examples:
 
 Example 1:
 
-
 Address: sftp://NA-01.enviromc.com:2022
-
 Username: exampleuser
-
 Password: examplepassword
-
 Port: Leave blank
 
 
