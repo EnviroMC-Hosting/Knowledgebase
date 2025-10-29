@@ -7,13 +7,14 @@ title: How to install Paper
 This guide will work for more or less all hosting companies or deployments on linux based systems.
 <br />
 
-**We Advise creating a backup before making any changes as mistaken can happen and files can accidentally be overwritten**
 
-# Notes about Updating versus Installing PaperMC
-Broadly, PaperMC is a straight forward, out of the box server solution designed to replace, but still support, plugins build on the Bukkit/Spigot engine. The process for updating and creating a new installation is effectively identical as it's a drag and drop replacement. Paper will automatically update any world files when you update to a newer version. We highly advise against attempting to downgrade Paper as it can cause corruption; we will not assist users attempting to do this.
+
+### Notes about Updating versus Installing PaperMC
+Broadly, PaperMC is a straight forward, out of the box server solution designed to replace, but still support, plugins built on the Bukkit/Spigot engine. The process for updating and creating a new installation is effectively identical as it's a drag and drop replacement. Paper will automatically update any world files when you update to a newer version. We highly advise against attempting to downgrade Paper as it can cause corruption; we will not assist users attempting to do this.
 <br />
 
 # Installing with EnviroMC's version installer:
+**We Advise creating a backup before making any changes as mistaken can happen and files can accidentally be overwritten**
 
 This process is near identical to the process we outlined in our article on How to install [Forge](https://docs.enviromc.host/Minecraft/Installing_Forge) or [Fabric](https://docs.enviromc.host/Minecraft/Installing_Fabric). 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-paper-p1.png?raw=true)
