@@ -16,14 +16,15 @@ First, you will want to switch over your server over to Hytale. You can do this 
 <br /> 
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p2.png?raw=true)
+
 For new installations, it's generally advised to enable all 3 options as it will give you a blank, functional hytale server. We only advise using your own startup parameters or installation files if you know what you're doing.
 
 <br /> 
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p3.png?raw=true)
 If the installation was successful, you should have two files that look like this in the "Files" tab of the navbar.
-
 <br /> 
+
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p4.png?raw=true)
 You can then boot up your server. You will be prompted to authenticate that you own a valid copy of hytale - your server won't start unless you own a copy of Hytale.
