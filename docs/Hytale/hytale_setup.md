@@ -44,7 +44,7 @@ You may be prompted with another authentication screen like this occasionally, t
 
 <br />
 
-<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p5.png?raw=true" width="400" />
+<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p5.png?raw=true" width="500" />
 <img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.1.png?raw=true" width="500" />
 <img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true" width="500" />
 
