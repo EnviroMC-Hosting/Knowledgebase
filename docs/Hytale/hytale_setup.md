@@ -47,7 +47,7 @@ Now we've got the server running, you'll need to copy the server address from th
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.1.png?raw=true)
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true)
-<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true" width="400">
+<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true" width="400" />
 
 Once you're in Hytale, click "servers" > "Add server" and then add the IP address that you just copied from your server's console page. You should then be able to double click the newly added server to join.
 
