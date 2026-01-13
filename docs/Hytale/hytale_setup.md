@@ -3,10 +3,12 @@ sidebar_position: 1
 title: How to Install and Setup a Hytale Server
 ---
 
-# How to Install a hytale Server
+# How to Install hytale on your game server
 
 This guide is built for enviromc customers but will work for most providers using pterodactyl, pelican or any other type of web panel. 
+All enviromc game servers come with the ability to play any game via our egg changer, including palworld.
 
+<br / >
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p1.png?raw=true)
 First, you will want to switch over your server over to Hytale. You can do this by heading to "settings" > "Change Egg" > Select Hytale
@@ -38,17 +40,15 @@ You will then to click "approve" to authenticate that you are the server owner a
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p4.1.png?raw=true)
 You may be prompted with another authentication screen like this occasionally, typically after updates or immediatly after installation. The process is similiar to the initial installation authentication process; 
 
+
+
 <br />
 
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p5.png?raw=true)
+<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p5.png?raw=true" width="400" />
+<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.1.png?raw=true" width="500" />
+<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true" width="500" />
+
 Now we've got the server running, you'll need to copy the server address from the console page. (Don't use 127.0.0.1:5520 - it's only an example).
-
-<br />
-
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.1.png?raw=true)
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true)
-<img src="https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p6.2.png?raw=true" width="400" />
-
 Once you're in Hytale, click "servers" > "Add server" and then add the IP address that you just copied from your server's console page. You should then be able to double click the newly added server to join.
 
 
