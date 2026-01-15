@@ -52,7 +52,6 @@ You will need to type the following into your browser console: <br />
 ```auth login device``` <br />
 ```auth persistence Encrypted```
 
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p4.1.1.png?raw=true)
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/hytale-setup-p4.1.2.png?raw=true)
 These inputs are case sensitive. If you have done them correctly, you shouldn't need to do it again on every reboot.
 
