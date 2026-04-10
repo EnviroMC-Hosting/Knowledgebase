@@ -30,7 +30,7 @@ Once you have installed the relevant Paper .jar file, upload it to your server.
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-paper-p3.png?raw=true)
 Change the startup parameters (under "startup" on the panel) to reflect the name of the newly uploaded jar file. In this case, that involved changing "server.jar" to "paper-1.21.8-60.jar". If you need to overwrite your startup parameters, `java -Xms128M -Xmx{Amount of RAM}G -Dterminal.jline=false -Dterminal.ansi=true -jar {jarfile.jar}` can be a good starting point, making sure to change the Xmx and jar values respectively.
 
-Make sure your server has the correct java version. At the time of writing, for anything post 1.18.2, Java 21 is advised. Anything prior to 1.16.5 can be run on Java 8.
+Make sure your server has the correct java version. At the time of writing for 26.1 and above, Java 25 should be used, for anything between 1.18.2-1.21.11, Java 21 is advised. Anything prior to 1.16.5 can be run on Java 8.
 
 <br />
 
