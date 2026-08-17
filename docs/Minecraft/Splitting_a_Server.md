@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 title: How to split a server
 ---
 
@@ -42,6 +42,15 @@ Here's the same server after creating two splits, "lobby" and "creative". Notice
 <br />
 
 You can click into any existing split at any time to adjust its resource allocation, rename it, sync subusers again, or delete it entirely (which returns its resources back to the pool for you to reassign).
+
+<br />
+<br />
+
+# Your splits on the dashboard
+![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/splitting-a-server-p4.png?raw=true)
+Once you've made your splits, they'll also show up on your main dashboard when you log in. The master server is listed at the top with a **2 SUBSERVERS** badge next to its name, and each split is shown indented underneath it with a **SUBSERVER** badge, making the relationship between them clear at a glance.
+
+Each subserver has its own address and port and its own share of CPU, memory and disk, and clicking on any of them takes you straight into that server's own panel - with its own Console, Files, Backups, Schedules, Databases and Startup - exactly like a standalone server.
 
 <br />
 

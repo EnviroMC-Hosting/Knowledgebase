@@ -45,7 +45,7 @@ Head to **Startup** and set your startup command to `./bedrock_server` - this is
 
 <br />
 
-Your server should now boot up! It's not entirely uncommon for some users to experience a permission denied error at this stage. Please read our "Exit Code 126: Permission Denied" guide for a fix.
+Your server should now boot up! It's not entirely uncommon for some users to experience a permission denied error at this stage - if that happens, our [Exit Code 126: Permission Denied](https://docs.enviromc.host/Minecraft/Exit%20Codes%20&%20Common%20Crashes/Exit_Code_126-Permission_Denied_Error) guide walks through the fix.
 
 <br />
 <br />
@@ -58,6 +58,14 @@ Updating is almost identical to a fresh install, whichever method you used origi
 - **Manually:** download the newer Ubuntu build from minecraft.net as above and upload/extract it over your existing files the same way you did for the initial install.
 
 If you followed either method correctly, your `worlds` folder will **not** be overwritten, so your existing world carries over to the new version. As always, take a backup first in case anything goes wrong - world corruption from a bad update, while rare, is not unheard of.
+
+<br />
+
+<br />
+
+# Common issues
+
+By far the most common issue when installing Bedrock manually is a **permission denied** error when the server tries to run `bedrock_server`. This happens because the binary is uploaded without the Linux "execute" permission set. Our [Exit Code 126: Permission Denied](https://docs.enviromc.host/Minecraft/Exit%20Codes%20&%20Common%20Crashes/Exit_Code_126-Permission_Denied_Error) guide walks through exactly how to fix this in a couple of clicks.
 
 <br />
 
