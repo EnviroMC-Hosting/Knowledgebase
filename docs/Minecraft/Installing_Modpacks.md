@@ -2,55 +2,57 @@
 sidebar_position: 50
 title: How to install a Modpack
 ---
-# How to install a Curseforge Modpack
-
-Why have I been sent to this page?                                                                                     
-As of writing this paragraph, we're currently working on the minecraft modpack installer tab on the panel to improve its ease of use and overall security. If you were directed here from the panel whilst trying to install a modpack the modpack installer is still under maintenence, you are advised to look at this guide as it will walk you through the steps that will still allow you to install a curseforge modpack on your server in just a couple of clicks!
 
 # Installing Minecraft Modpacks
-This guide is specific to EnviroMC but is generally applicable to most hosting companies and installations. If you're having any issues after this guide, please only contact us if you're an EnviroMC customer. 
 
-There are three common ways to modpacks can be downloaded from sites like Curseforge (using Jar files, Shell files or Overrides) and there are a handful of ways they can be setup. In this guide, I will largely be using Forge as an example but this any guidance is generally applicable to Fabric and most common mod-supporting server softwares. Please note that Forge and Fabric mods are generally NOT cross compatible. Installing modpacks using the incorrect server jar will throw various errors. 
+This guide is specific to EnviroMC but is generally applicable to most hosting companies and installations. If you're having any issues after this guide, please only contact us if you're an EnviroMC customer.
 
-**We heavily advise users to take a backup of their server before installing a modpack as their is a high likelihood of files being overwritten/updated which is non reversible**
+There are two ways to get a modpack onto your server: our built-in **Modpacks tab**, which installs directly from Modrinth or CurseForge in a couple of clicks, or the **traditional method** of downloading the pack yourself from a site like CurseForge or Modrinth and uploading it via the Files tab. Both are covered below. In this guide, we'll largely be using Forge-based packs as an example, but this guidance is generally applicable to Fabric and most common mod-supporting server software. Please note that Forge and Fabric mods are generally **not** cross compatible - installing a modpack using the incorrect server jar will throw various errors.
+
+**We heavily advise users to take a backup of their server before installing a modpack as there is a high likelihood of files being overwritten/updated which is non-reversible.**
 
 <br />
 
-# Install via Curseforge Egg
+# Method 1: Installing via the Modpacks tab
 
-We generally encourage new users to use this method as it's generally the most straight forward. It does, however, require the modpack to be on [Curseforge](https://www.curseforge.com/minecraft) to work. It is, at the time of writing, also a BETA feature so there may be a handful of issues with it - if you have any issues, don't hesitate to contact us with one of the buttons in the navbar! 
+This is the easiest method for most users and is the one we'd recommend by default. It searches Modrinth and CurseForge directly from the panel, so there's no need to leave the dashboard or manually upload anything.
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p1.png?raw=true)
-Head over to the Egg Changer to change the installation image (egg) of your server to "CurseForge Installer". Note, doing this will erase whats already on your server so we highly advise downloading it to your own device or taking a backup beforehand if you care about the files already on your server.
+Head to the **Modpacks** tab on your server. Use the **Provider** dropdown to pick Modrinth, CurseForge, ATLauncher, Feed The Beast, Technic or Voids Wrath, then use the search box to find the pack you're after. In this example we've searched for "All the Mods 10" on the CurseForge provider.
 
 <br />
 
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p1.5.png?raw=true)
-After the server has been switched to the CurseForge Installer Egg, it's important that you delete all existing files as they may merge or interfere with newly installed modpack files.
-This can be done by heading to the `Files` tab on the panel, selecting everything and then pressing "Delete". You will need to press the confirmation pop-up to confirm deletion.
+Click the download icon next to the modpack you want. A confirmation window will pop up letting you choose the modpack version and, importantly, a **"Delete Files"** toggle.
 
+- If this is a **fresh install** (or you're happy to lose everything currently on the server), turn this toggle on. It will wipe the server before installing so nothing from a previous install conflicts with the new pack.
+- If you're **updating** an existing modpack install, leave it off - the installer will overwrite/update the modpack's own files while leaving the rest of your server (worlds, other config) alone. As always, take a backup first regardless.
+
+Click **Install modpack** to confirm. Installation can take anywhere from thirty seconds to several minutes depending on the size of the pack, since the panel needs to download every mod file individually. Once it's finished, head to **Startup** to double check your startup parameters and Java version match what the modpack expects (the installer usually sets these automatically), then boot your server as normal and accept the EULA prompt if it's a fresh install.
 
 <br />
+<br />
 
+# Method 2: Traditional download and upload
+
+If your modpack isn't available through the Modpacks tab, or you'd simply rather do it manually, you can download the pack yourself and upload it like any other file.
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p2.png?raw=true)
-If you're deleting large numbers of files, it can take a little while. Whilst that's processing, we'll head over to curseforge.com and find a modpack we're interested in. I'm going to use All The Mods 9 in this demonstration - it's a very popular modpack and safe to install, as is the vast majority of content on legitimate sites like Curseforge. 
-Once you find a modpack you like, click on it and locate the "Project ID". Copy and paste that as we'll need this in just a moment.
+Head to a legitimate, well-known site such as [CurseForge](https://www.curseforge.com/minecraft) or [Modrinth](https://modrinth.com/modpacks) and find the modpack you're after - in this example we're using Create+ on Modrinth. Make sure to check the "Compatibility" panel for the Minecraft version and whether it needs Forge, Fabric or NeoForge, and download the **server pack** if one is offered (client packs include resource/texture-only files you don't need on a server).
 
 <br />
 
+Before uploading anything, safely stop your server and take a backup. If you're updating an existing modpack install, delete the old mod jars and config first so old and new files don't conflict; if this is a fresh install onto a server with pre-existing files, select everything under the `Files` tab and hit delete to start from a clean slate.
+
+<br />
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p3.png?raw=true)
-You'll now want to copy and paste this new token into the "Modpack Project ID" field and hit enter to save. 
+Head to the **Files** tab and click **Upload**, then drag and drop (or browse to) the modpack zip/jar you just downloaded. Once it's uploaded, if it's a compressed archive (`.zip`), click the three dots next to it and choose "Unarchive" to extract it into your server's root directory.
 
 <br />
 
-
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/installing-modpacks-p4.png?raw=true)
-Head over to "Settings" and hit the re-install button. This will wipe your server and install the provided modpack ID after; it may take several minutes to complete.
-
+Finally, head to **Startup** and make sure your startup parameters point at the correct jar or `.sh` file the modpack expects, and that your Docker image is set to the correct Java version for that Minecraft version. Boot your server and accept the EULA prompt if this is a fresh install.
 
 <br />
+<br />
 
-
-If you have any issues with this, please feel free to try any of the other provided methods or reach out to us if you're an EnviroMC customer, otherwise we'd advise contacting your hosting provider. 
+If you have any issues with either method, please feel free to try the other or reach out to us if you're an EnviroMC customer, otherwise we'd advise contacting your hosting provider.

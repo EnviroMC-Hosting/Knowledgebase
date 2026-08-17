@@ -25,7 +25,7 @@ If that doesn't fix your issue, here are a handful of fixes for the other common
 
 **If your server is running out of resources:**
 <br /> In this instance, you would just need to up your resources. The best way to tell is if your server is frequently showing high CPU or Memory usage on the "Console" page of your EnviroMC panel (This may be located somewhere like a stats page for some other hosting companies.)
-<br /> You can upgrade on EnviroMC by heading to https://client.enviromc.host > logging in > click the service in question > upgrade/downgrade
+<br /> You can upgrade on EnviroMC by heading to our [Upgrading/Downgrading guide](https://docs.enviromc.host/Billing/Upgrading%20&%20Downgrading), which walks through logging in, selecting the service in question, and upgrading or downgrading your plan.
 
 <br />
 

@@ -4,42 +4,38 @@ title: How to install a plugin
 ---
 
 # How to install a plugin on Minecraft
-Installing plugins on your minecraft server is generally a very straight forward process. 
+Installing plugins on your Minecraft server is generally a very straightforward process.
 
+As a prerequisite, you will need to be running server software that supports plugins. We'd typically recommend [PaperMC](https://docs.enviromc.host/Minecraft/Installing_Paper) as it's secure, stable and well maintained. Any plugin built for Bukkit or Spigot will also work on Paper, so we generally advise against running Bukkit or Spigot directly.
 
-As a prerequisite, you will need to be running a version of minecraft that supports plugins. We would typically recommend that most users use [Paper](https://papermc.io/software/paper) as it is incredibly secure, stable and well maintained. Any plugin that's supported by Bukkit, Spigot or any other plugin-supporting jar will work with paper so we generally advise to avoid using bukkit or spigot. 
-
-Please note that Forge, Fabric and other mod-supporting server jars typically do **Not** support plugins and "Hybrid" options that claim to support both are generally unstable.
-
+Forge, Fabric and other mod-supporting server jars do **not** support plugins - if you want to run plugins, your server needs to be running plugin-compatible software like Paper instead. "Hybrid" software such as Mohist that claims to support both mods and plugins on the same server is unstable, prone to corrupting worlds, and **not supported by EnviroMC** - we will not provide support for issues that occur on hybrid software and strongly advise against using it.
 
 <br />
 
 ## How to install a Minecraft plugin
-There are a variety of sites you can download plugins from. We highly advise sticking to legitimate sites like SpigotMC.org, Bukkit.org, Modrinth.com and any other widely used platforms that maintain a strict anti-piracy standard. Many of the sites that allow "Cracked" content (where a paid product has been duplicated against the wishes of the original owner) are full of malware and can cause more trouble than they're worth.
+There are a variety of sites you can download plugins from. We highly advise sticking to legitimate sites like [Modrinth](https://modrinth.com), [SpigotMC](https://www.spigotmc.org) and [Hangar](https://hangar.papermc.io), which maintain a strict anti-piracy standard. Sites offering "cracked" or pirated plugins are frequently full of malware and can cause far more trouble than they're worth.
 
 <br />
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/Installing-plugins-1.png?raw=true)
-Once you've found a plugin you like, make sure to check the "Tested Minecraft Versions". That typically only refers to the main version and not subversions of minecraft (eg, if a plugin states it supports 1.20, it will almost always support 1.20.2)
+Once you've found a plugin you like - for example, [Milk](https://modrinth.com/plugin/milk) pictured above - check its supported platforms and Minecraft versions (usually shown as tags like Paper, Spigot, Bukkit). This typically only refers to the main version and not subversions of Minecraft (eg. if a plugin states it supports 1.21, it will almost always support 1.21.4 too).
 
-Hit the "Download Now" button. This will install the jar file onto your PC. 
+Hit "Download" to save the jar file onto your PC.
 
 <br />
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/Installing-plugins-2.png?raw=true)
-Make sure to safely stop your server before proceeding to ensure data integrity. You'll then want to head towards "Files".
+Head to the **Files** tab on your server's panel. Assuming you've correctly installed Paper (or any other plugin-supporting software), a **plugins** folder should already exist in your root directory. If it isn't showing up, make sure you've booted your server up at least once first - this lets Paper generate its required files, including the plugins folder.
 
 <br />
 
 ![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/Installing-plugins-3.png?raw=true)
-Assuming you've correctly installed Paper, or any of the many other plugin-supporting jars correctly, a "plugins" folder should appear. Click on it to enter it.
+Click into the **plugins** folder, then hit **Upload** and select the jar file you just downloaded (or simply drag and drop it from your file explorer/Finder straight onto the panel). After a few seconds, the upload will finish.
 
-If you've installed Paper but the plugins folder isn't showing up, make sure you're booted up your server atleast once. This will allow paper to generate its required files.
+We'd recommend safely stopping your server before uploading a new plugin, or restarting it afterwards, to ensure it loads correctly and to avoid any file integrity issues.
 
 <br />
 
-![](https://github.com/EnviroMC-Docs/Knowledgebase/blob/main/static/img/Installing-plugins-4.png?raw=true)
-Now simple drag and drop your server jar from your file explorer (windows) or Finder (Mac) onto the panel. After a few seconds, the plugin should finish uploading and you can start up your server.
+Once you've restarted your server, you should be able to type `pl` (short for plugins) into your console and the plugin will show up in the list - you're all done!
 
-Assuming all went well, you should be able to type "pl" (short for plugins) into your console and it'll show up! 
-
+If you're an EnviroMC customer and run into any issues installing plugins, feel free to reach out to us via a support ticket.
